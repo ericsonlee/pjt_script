@@ -22,7 +22,7 @@ import pandas as pd
 import mysql.connector
 import refinitiv.data as rd
 # Import database utility functions
-from script.db_utils import connect_to_database, initialize_refinitiv
+from db_utils import connect_to_database, initialize_refinitiv
 
 # Configure logging
 logging.basicConfig(
