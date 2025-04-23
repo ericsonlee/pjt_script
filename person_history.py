@@ -17,7 +17,7 @@ import refinitiv.data as rd
 import numpy as np
 from tqdm import tqdm
 import mysql.connector
-from script.db_utils import connect_to_database, initialize_refinitiv
+from db_utils import connect_to_database, initialize_refinitiv
 
 # Configure logging
 logging.basicConfig(
