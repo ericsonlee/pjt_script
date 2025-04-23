@@ -22,7 +22,7 @@ import numpy as np
 import refinitiv.data as rd
 from tqdm.auto import tqdm
 # Import database utility functions
-from script.db_utils import connect_to_database, initialize_refinitiv
+from db_utils import connect_to_database, initialize_refinitiv
 
 # Configure logging
 logging.basicConfig(
