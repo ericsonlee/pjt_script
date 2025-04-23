@@ -17,7 +17,7 @@ import pandas as pd
 import mysql.connector
 from tqdm import tqdm
 import refinitiv.data as rd
-from script.db_utils import connect_to_database, initialize_refinitiv
+from db_utils import connect_to_database, initialize_refinitiv
 
 # Configure logging
 logging.basicConfig(
